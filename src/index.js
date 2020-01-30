@@ -1,5 +1,5 @@
 console.log('%c HI', 'color: firebrick');
-//first
+//      -------------- first------------- //
 const imgUrl = "https://dog.ceo/api/breeds/image/random/4";
 function fetchimg() {
 return fetch(imgUrl)
@@ -19,7 +19,7 @@ function showImg(json)
 }
 
 
-//second
+//          -------- second -----------     //
 const breedUrl = 'https://dog.ceo/api/breeds/list/all';
 function fetchBre() {
 return fetch(breedUrl)
