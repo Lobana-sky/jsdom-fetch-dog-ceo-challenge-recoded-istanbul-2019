@@ -26,10 +26,10 @@ return fetch(breedUrl)
   .then(resp => resp.json())
   .then(json => showBre(json));
 }
-    
+   let listBre = document.getElementById('dog-breeds'); 
 function showBre(json)
 {
-    let listBre = document.getElementById('dog-breeds');
+    
     //let sel=document.getElementById('breed-dropdown');
     listBre.innerHTML="";
     let numLi=0; //set different id for each li
@@ -46,7 +46,7 @@ function showBre(json)
     }
 }
 
-for(let j=0;j<){
+for(let j=0;j<listBre.){
   
 }
 
