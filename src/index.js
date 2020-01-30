@@ -32,12 +32,14 @@ function showBre(json)
     let listBre = document.getElementById('dog-breeds');
     //let sel=document.getElementById('breed-dropdown');
     listBre.innerHTML="";
+    let numLi=0; //set different id for each li
     for(let element in json.message)
     {
       if(element[0] == document.getElementById("breed-dropdown").value)
       {
       let bre=document.createElement('li');
-      bre.setAtt
+      bre.setAttribute("id",`color${numLi}`);
+      numLi++;
       bre.innerHTML=element;
       listBre.appendChild(bre);
       }
