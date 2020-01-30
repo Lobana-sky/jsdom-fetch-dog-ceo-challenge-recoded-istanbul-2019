@@ -31,7 +31,7 @@ function showBre(json)
 {
     let listBre = document.getElementById('dog-breeds');
     //let sel=document.getElementById('breed-dropdown');
-  
+    listBre.innerHTML="";
     for(let element in json.message)
     {
       if(element[0] == document.getElementById("breed-dropdown").value)
