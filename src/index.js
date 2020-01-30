@@ -46,6 +46,10 @@ function showBre(json)
     }
 }
 
+for(let j=0;j<){
+  
+}
+
 document.addEventListener('DOMContentLoaded', function() {
    fetchimg();
   fetchBre();
