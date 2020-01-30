@@ -37,7 +37,7 @@ function showBre(json)
       if(element[0] == document.getElementById("breed-dropdown").value)
       {
       let bre=document.createElement('li');
-      
+      bre.setAtt
       bre.innerHTML=element;
       listBre.appendChild(bre);
       }
