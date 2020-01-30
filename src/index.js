@@ -40,15 +40,21 @@ function showBre(json)
       let bre=document.createElement('li');
       bre.setAttribute("id",`color${numLi}`);
       numLi++;
+      bre.addEventListener('click',function(){
+        
+      });
       bre.innerHTML=element;
       listBre.appendChild(bre);
       }
     }
 }
 
-for(let j=0;j<listBre.){
+// for(let j=0;j<listBre.childElementCount;j++){
+//   let btn=document.get
+//   document.addEventListener('click', function() {
   
-}
+// });
+// }
 
 document.addEventListener('DOMContentLoaded', function() {
    fetchimg();
