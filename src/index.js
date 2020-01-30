@@ -41,7 +41,7 @@ function showBre(json)
       bre.setAttribute("id",`color${numLi}`);
       numLi++;
       bre.addEventListener('click',function(){
-        
+      bre.style.color="red";
       });
       bre.innerHTML=element;
       listBre.appendChild(bre);
